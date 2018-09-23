@@ -1,0 +1,75 @@
+body {
+	background-image:url('../img/background.png');	
+	background-size:  100% 100%;
+	background-attachment:fixed;		
+	 font-family: 'Arial';	
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	padding-left: 15px;
+}
+.container{
+	width: 750px;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top: 40px;
+}
+.profile-image{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 20px 0px 20px 0px;
+}
+.profile-intro{
+	color: #ffffff;
+	background-color: #163a5b;
+}
+.profile-intro h2{
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+.profile-intro-about {
+	color: #444;
+	line-height: 1.6;
+	padding: 20px 20px 20px 20px;
+}
+
+.social-icons{
+	font-size:45px;
+	margin-left: -10px;
+}
+
+.social-icons .fab {  
+    color: #808080;
+    margin: 0px 0px 30px 30px;
+}
+
+
+.social-icons .fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.social-icons .fa-github-square:hover {
+    color: black;
+}
+
+.social-icons .fa-twitter-square:hover {
+    color: #55ACEE;
+}
+
+.social-icons .fa-gitter:hover {
+    color: #9d3475;
+}
+.social-icons .fab , .social-icons .fab:hover {
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -o-transition:  0.5s ;  
+    transition: 0.5s ;
+}
+
